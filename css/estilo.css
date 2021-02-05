@@ -1,0 +1,98 @@
+body {
+    color: #5d5d5d;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #eeeeed;
+}
+
+h1 {
+    font-size: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.mapael .map {
+    position: relative;
+}
+
+.mapael .mapTooltip {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #e2dfdd;
+    padding: 10px;
+    z-index: 1000;
+    display: none;
+    color: #343434;
+}
+
+p{
+    font-size: 14px;
+}
+
+span{
+    font-weight: bold;
+}
+
+#cidade{
+    font-size: 20px;
+}
+
+.table .thead-dark th{
+    background-color: #193282;
+}
+
+.bg-fundo{
+    background-color: #193282;
+    border-bottom: 5px solid #ccc;
+    background-image: linear-gradient(to right, #193282 , #003399);
+}
+
+.letra{
+    font-family: 'Lobster', cursive;
+}
+
+.titulo{
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+/*breakpoints*/
+@media (max-width: 575.98px) {
+
+    #logo{
+        width: 30%;
+    }
+
+    .display-1{
+        font-size: 30px;
+        padding:  10px 10px;
+    }
+
+    #rodape{
+        font-size: 10px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #logo{
+        width: 40%;
+    }
+
+    .display-1{
+        font-size: 35px;
+        padding:  10px 10px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+@media (min-width: 1200px) {  }
